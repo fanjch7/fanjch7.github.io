@@ -28,7 +28,7 @@ nav a[aria-current]{color:var(--accent);text-decoration:underline;text-underline
 main{width:min(920px,calc(100% - 80px));margin:58px auto 90px}
 main.home{margin-top:69px}
 h1,h2,h3,p{margin:0}
-h1,h2,h3{font-family:var(--serif);font-weight:400}
+h1,h2,h3{font-family:var(--serif);font-weight:700}
 h1{font-size:36px;line-height:1.25;letter-spacing:-.5px;margin-bottom:34px}
 h2{font-size:26px;line-height:1.35;color:var(--accent);margin-bottom:25px}
 h3{font-size:20px;line-height:1.5;color:var(--ink)}
@@ -100,7 +100,13 @@ strong{font-weight:600}
 @media print{header,.skip{display:none}main,main.home{width:100%;margin:0;padding:0}.paper,.grants li{break-inside:avoid}a{color:inherit}}
 /* Chinese text uses a lighter sans-serif companion to the English serif. */
 .name span{font-family:var(--sans);font-weight:400}
-html[lang=zh-CN] h1,html[lang=zh-CN] h2,html[lang=zh-CN] h3,#chinese-research h2,#chinese-research h3{font-family:var(--sans);font-weight:400}
+html[lang=zh-CN] h1,html[lang=zh-CN] h2,html[lang=zh-CN] h3,#chinese-research h2,#chinese-research h3{font-family:var(--sans);font-weight:700}
 html[lang=zh-CN] .home .intro{font-family:var(--sans);font-size:18px}
 html[lang=zh-CN] .home .personal-note{font-family:var(--sans);font-size:15px}
-#chinese-research .paper-title,.project-chinese{font-family:var(--sans);font-size:16px;line-height:1.85}
+#chinese-research .paper-title{font-family:var(--serif);line-height:1.7}
+.project-chinese{font-family:var(--sans);font-size:16px;line-height:1.85}
+
+.paper-resources{white-space:nowrap;margin-left:.3em}
+.paper-resources a{color:var(--accent);font-weight:700;text-decoration:none;margin-right:.35em}
+.paper-resources a:hover{text-decoration:underline}
+.paper-note{font-style:italic}
