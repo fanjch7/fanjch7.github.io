@@ -56,6 +56,7 @@ strong{font-weight:600}
 .paper-summary{padding-top:8px;font-size:15px;line-height:1.75;color:#555a60;font-weight:400;text-wrap:pretty}
 .paper-info strong{font-weight:700;color:#424448}
 .paper-info em{color:#45464a;font-style:italic;font-weight:400;text-decoration:none}
+.paper-info em:not(.paper-note){color:var(--ink)}
 .file-label{font:11px var(--sans);color:var(--muted)}
 .research h3{margin:25px 0 21px}
 .funding section{margin-top:34px;margin-bottom:39px}
