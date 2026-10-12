@@ -53,6 +53,7 @@ strong{font-weight:600}
 .paper-title a{color:var(--ink);text-decoration-color:#c8c2c2}
 .paper-title a:hover{color:var(--accent);text-decoration-color:var(--accent)}
 .paper-info{font-size:14px;color:var(--muted);line-height:1.8;padding-top:6px}
+.paper-summary{padding-top:8px;font-size:15px;line-height:1.75;color:#555a60;font-weight:400;text-wrap:pretty}
 .paper-info strong{font-weight:700;color:#424448}
 .paper-info em{color:#45464a;font-style:italic;font-weight:400;text-decoration:none}
 .file-label{font:11px var(--sans);color:var(--muted)}
@@ -89,7 +90,7 @@ strong{font-weight:600}
  .home h1{font-size:29px}.home .intro{font-size:19px;line-height:1.75}
  .home .contact{font-size:14px;margin-top:28px}
  .home .personal-note{font-size:16px;margin-top:29px;padding-top:22px}
- .paper-title{font-size:18px}.paper-info{font-size:13px}
+ .paper-title{font-size:18px}.paper-info{font-size:13px}.paper-summary{font-size:14px}
  .papers{padding-left:20px}.paper{padding-left:3px;margin-bottom:26px}
  .research section{margin-top:31px;margin-bottom:34px}
  .research section+section{padding-top:28px}
