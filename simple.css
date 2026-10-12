@@ -115,3 +115,11 @@ html[lang=zh-CN] .home .personal-note{font-family:var(--sans);font-size:15px}
 
 /* Keep Chinese paper titles regular; section headings remain bold. */
 #chinese-research .paper-title,#chinese-research .paper-title a{font-family:var(--sans);font-weight:400;font-synthesis:none}
+
+/* Homepage awards follow the current saved English CV. */
+.home .awards{margin-top:42px;padding-top:32px;border-top:1px solid var(--line)}
+.home .awards h2{font-family:var(--serif);margin-bottom:23px}
+.awards-list{list-style:none;margin:0;padding:0;font-size:15px;line-height:1.75}
+.awards-list li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:18px;margin-bottom:17px}
+.award-years{color:var(--muted);font-variant-numeric:tabular-nums}
+@media(max-width:480px){.awards-list li{grid-template-columns:82px minmax(0,1fr);gap:12px}.awards-list{font-size:14px}.home .awards{margin-top:32px;padding-top:26px}}
