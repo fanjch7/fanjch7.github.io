@@ -110,3 +110,6 @@ html[lang=zh-CN] .home .personal-note{font-family:var(--sans);font-size:15px}
 .paper-resources a{color:var(--accent);font-weight:700;text-decoration:none;margin-right:.35em}
 .paper-resources a:hover{text-decoration:underline}
 .paper-note{font-style:italic}
+
+/* Keep Chinese paper titles regular; section headings remain bold. */
+#chinese-research .paper-title,#chinese-research .paper-title a{font-family:var(--sans);font-weight:400;font-synthesis:none}
