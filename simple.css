@@ -119,7 +119,7 @@ html[lang=zh-CN] .home .personal-note{font-family:var(--sans);font-size:15px}
 /* Awards: bilingual columns in English, Chinese-only entries in Chinese. */
 .award-keep-together{white-space:nowrap}
 .awards-list{list-style:none;margin:0;padding:0;font-size:16px;line-height:1.75}
-.awards-list li{display:grid;grid-template-columns:64px minmax(0,1fr) minmax(0,1.25fr);gap:14px;padding:25px 0;border-bottom:1px solid var(--line)}
+.awards-list li{display:grid;grid-template-columns:64px minmax(0,1fr) minmax(0,1.1fr);gap:14px 40px;padding:25px 0;border-bottom:1px solid var(--line)}
 .awards-list li:first-child{padding-top:0}
 .awards-list li:last-child{border-bottom:0}
 .award-years{color:var(--muted);font-size:13px;letter-spacing:-.15px;font-variant-numeric:tabular-nums}
