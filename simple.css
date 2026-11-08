@@ -52,8 +52,8 @@ strong{font-weight:600}
 .paper-title{font:19px/1.55 var(--serif);text-wrap:pretty}
 .paper-title a{color:var(--ink);text-decoration-color:#c8c2c2}
 .paper-title a:hover{color:var(--accent);text-decoration-color:var(--accent)}
-.paper-info{font-size:14px;color:var(--muted);line-height:1.8;padding-top:6px}
-.paper-summary{padding-top:8px;font-size:15px;line-height:1.75;color:#555a60;font-weight:400;text-wrap:pretty}
+.paper-info{font-size:16px;color:var(--muted);line-height:1.8;padding-top:6px}
+.paper-summary{padding-top:8px;font-size:15px;line-height:1.75;color:#555a60;font-weight:400;text-align:justify}
 .paper-info strong{font-weight:700;color:#424448}
 .paper-info em{color:#45464a;font-style:italic;font-weight:400;text-decoration:none}
 .paper-info em:not(.paper-note){color:var(--ink)}
@@ -91,7 +91,7 @@ strong{font-weight:600}
  .home h1{font-size:29px}.home .intro{font-size:19px;line-height:1.75}
  .home .contact{font-size:14px;margin-top:28px}
  .home .personal-note{font-size:16px;margin-top:29px;padding-top:22px}
- .paper-title{font-size:18px}.paper-info{font-size:13px}.paper-summary{font-size:14px}
+ .paper-title{font-size:18px}.paper-info{font-size:15px}.paper-summary{font-size:14px}
  .papers{padding-left:20px}.paper{padding-left:3px;margin-bottom:26px}
  .research section{margin-top:31px;margin-bottom:34px}
  .research section+section{padding-top:28px}
@@ -119,19 +119,19 @@ html[lang=zh-CN] .home .personal-note{font-family:var(--sans);font-size:15px}
 /* Awards: bilingual columns in English, Chinese-only entries in Chinese. */
 .award-keep-together{white-space:nowrap}
 .awards-list{list-style:none;margin:0;padding:0;font-size:16px;line-height:1.75}
-.awards-list li{display:grid;grid-template-columns:64px minmax(0,1fr) minmax(0,1.1fr);gap:14px 40px;padding:25px 0;border-bottom:1px solid var(--line)}
+.awards-list li{display:grid;grid-template-columns:120px minmax(0,1fr) minmax(0,1.1fr);gap:14px 40px;padding:25px 0;border-bottom:1px solid var(--line)}
 .awards-list li:first-child{padding-top:0}
 .awards-list li:last-child{border-bottom:0}
 .award-years{color:var(--muted);font-size:13px;letter-spacing:-.15px;font-variant-numeric:tabular-nums}
 .award-chinese{color:#555a60}
-.awards-list-zh li{grid-template-columns:64px minmax(0,1fr)}
+.awards-list-zh li{grid-template-columns:120px minmax(0,1fr)}
 @media(max-width:850px){
- .awards-list li{grid-template-columns:64px minmax(0,1fr);gap:7px 14px}
+ .awards-list li{grid-template-columns:120px minmax(0,1fr);gap:7px 14px}
  .awards-list .award-chinese{grid-column:2}
 }
 @media(max-width:480px){
  .awards-list{font-size:15px}
- .awards-list li{grid-template-columns:62px minmax(0,1fr);column-gap:12px;padding:21px 0}
+ .awards-list li{grid-template-columns:120px minmax(0,1fr);column-gap:12px;padding:21px 0}
  .award-years{font-size:13px}
 }
 html[lang=zh-CN] .funding .project-chinese{font-size:18px}
@@ -155,7 +155,7 @@ html[lang=zh-CN] .funding .project-chinese{font-size:18px}
 .jmp-tools{position:relative;font-size:15px}
 .jmp-abstract summary{width:max-content;cursor:pointer;color:var(--accent);font-weight:600;line-height:28px}
 .jmp-abstract summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
-.jmp-abstract p{margin:16px 0 0;color:#555a60;font:15px/1.85 var(--sans)}
+.jmp-abstract p{margin:16px 0 0;color:#555a60;font:15px/1.85 var(--sans);text-align:justify}
 .jmp-pdf{position:absolute;left:120px;top:0;font-weight:700;line-height:28px;text-decoration:none}
 .jmp-pdf:hover{text-decoration:underline}
 .teaching-list{margin:0;padding-left:24px}
