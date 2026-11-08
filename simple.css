@@ -135,3 +135,34 @@ html[lang=zh-CN] .home .personal-note{font-family:var(--sans);font-size:15px}
  .award-years{font-size:13px}
 }
 html[lang=zh-CN] .funding .project-chinese{font-size:18px}
+
+/* Job market paper: native, keyboard-accessible abstract disclosure. */
+.job-market-notice{margin:22px 0 0;font-size:18px}
+.job-market-notice strong{font-weight:700}
+.job-market-paper{max-width:780px;margin-top:36px;padding-top:28px;border-top:1px solid var(--line)}
+.job-market-paper h2{margin-bottom:15px}
+.job-market-paper .jmp-title{font:22px/1.5 var(--serif);margin-bottom:14px}
+.jmp-title a{color:var(--ink);text-decoration:none}
+.jmp-title a:hover{color:var(--accent);text-decoration:underline}
+.jmp-tools{position:relative;font-size:15px}
+.jmp-abstract summary{width:max-content;cursor:pointer;color:var(--accent);font-weight:600;line-height:28px}
+.jmp-abstract summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.jmp-abstract p{margin:16px 0 0;color:#555a60;font:15px/1.85 var(--sans)}
+.jmp-pdf{position:absolute;left:120px;top:0;font-weight:700;line-height:28px;text-decoration:none}
+.jmp-pdf:hover{text-decoration:underline}
+.teaching-list{margin:0;padding-left:24px}
+.teaching-list li{padding-left:5px;margin:0 0 30px}
+.teaching-list li::marker{color:var(--muted);font-size:14px}
+.teaching-list h3{font-size:20px;font-weight:400;margin-bottom:7px}
+.teaching-meta{font-size:15px;color:var(--muted);margin:0;line-height:1.85}
+html[lang=zh-CN] .job-market-paper h2{font-family:var(--serif)}
+html[lang=zh-CN] .teaching-list h3{font-weight:400;font-size:19px}
+@media(max-width:480px){
+ nav{gap:16px}
+ .job-market-notice{font-size:16px}
+ .job-market-paper{margin-top:29px;padding-top:24px}
+ .job-market-paper .jmp-title{font-size:20px}
+ .jmp-abstract p{font-size:14px}
+ .teaching-list h3{font-size:19px}
+ .teaching-meta{font-size:14px}
+}
