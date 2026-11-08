@@ -102,10 +102,10 @@ strong{font-weight:600}
 @media print{header,.skip{display:none}main,main.home{width:100%;margin:0;padding:0}.paper,.grants li{break-inside:avoid}a{color:inherit}}
 /* Chinese text uses a lighter sans-serif companion to the English serif. */
 .name span{font-family:var(--sans);font-weight:400}
-html[lang=zh-CN] h1,html[lang=zh-CN] h2,html[lang=zh-CN] h3,#chinese-research h2,#chinese-research h3{font-family:var(--sans);font-weight:700}
+html[lang=zh-CN] h1,html[lang=zh-CN] h2,html[lang=zh-CN] h3,#chinese-research[lang=zh-CN] h2,#chinese-research[lang=zh-CN] h3{font-family:var(--sans);font-weight:700}
 html[lang=zh-CN] .home .intro{font-family:var(--sans);font-size:18px}
 html[lang=zh-CN] .home .personal-note{font-family:var(--sans);font-size:15px}
-#chinese-research .paper-title{font-family:var(--serif);line-height:1.7}
+#chinese-research[lang=zh-CN] .paper-title{font-family:var(--serif);line-height:1.7}
 .project-chinese{font-family:var(--sans);font-size:16px;line-height:1.85}
 
 .paper-resources{white-space:nowrap;margin-left:.3em}
@@ -114,7 +114,7 @@ html[lang=zh-CN] .home .personal-note{font-family:var(--sans);font-size:15px}
 .paper-note{font-style:italic}
 
 /* Keep Chinese paper titles regular; section headings remain bold. */
-#chinese-research .paper-title,#chinese-research .paper-title a{font-family:var(--sans);font-weight:400;font-synthesis:none}
+#chinese-research[lang=zh-CN] .paper-title,#chinese-research[lang=zh-CN] .paper-title a{font-family:var(--sans);font-weight:400;font-synthesis:none}
 
 /* Awards: bilingual columns in English, Chinese-only entries in Chinese. */
 .award-keep-together{white-space:nowrap}
@@ -124,7 +124,7 @@ html[lang=zh-CN] .home .personal-note{font-family:var(--sans);font-size:15px}
 .awards-list li:last-child{border-bottom:0}
 .award-years{color:var(--muted);font-size:13px;letter-spacing:-.15px;font-variant-numeric:tabular-nums}
 .award-chinese{color:#555a60}
-.awards-list-zh li{grid-template-columns:120px minmax(0,1fr)}
+.awards-list-single li{grid-template-columns:120px minmax(0,1fr)}
 @media(max-width:850px){
  .awards-list li{grid-template-columns:120px minmax(0,1fr);gap:7px 14px}
  .awards-list .award-chinese{grid-column:2}
@@ -155,7 +155,7 @@ html[lang=zh-CN] .funding .project-chinese{font-size:18px}
 .jmp-tools{position:relative;font-size:15px}
 .jmp-abstract summary{width:max-content;cursor:pointer;color:var(--accent);font-weight:600;line-height:28px}
 .jmp-abstract summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
-.jmp-abstract p{margin:16px 0 0;color:#555a60;font:15px/1.85 var(--sans);text-align:justify}
+.jmp-abstract p{margin:16px 0 0;padding:18px 22px;background:#f3f4f5;border-radius:4px;color:#555a60;font:15px/1.85 var(--sans);text-align:justify}
 .jmp-pdf{position:absolute;left:120px;top:0;font-weight:700;line-height:28px;text-decoration:none}
 .jmp-pdf:hover{text-decoration:underline}
 .teaching-list{margin:0;padding-left:24px}
