@@ -155,7 +155,7 @@ html[lang=zh-CN] .funding .project-chinese{font-size:18px}
 .jmp-tools{position:relative;font-size:15px}
 .jmp-abstract summary{width:max-content;cursor:pointer;color:var(--accent);font-weight:600;line-height:28px}
 .jmp-abstract summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
-.jmp-abstract p{margin:16px 0 0;padding:18px 22px;background:#f3f4f5;border-radius:4px;color:#555a60;font:15px/1.85 var(--sans);text-align:justify}
+.jmp-abstract p{margin:16px -20px 0;padding:18px 20px;background:#f3f4f5;border-radius:4px;color:#555a60;font:15px/1.85 var(--sans);text-align:justify;text-wrap:pretty;hyphens:auto}
 .jmp-pdf{position:absolute;left:120px;top:0;font-weight:700;line-height:28px;text-decoration:none}
 .jmp-pdf:hover{text-decoration:underline}
 .teaching-list{margin:0;padding-left:24px}
@@ -174,7 +174,7 @@ html[lang=zh-CN] .teaching-list h3{font-weight:400;font-size:19px}
  .job-market-notice{font-size:16px}
  .job-market-paper{margin-top:29px;padding-top:24px}
  .job-market-paper .jmp-title{font-size:20px}
- .jmp-abstract p{font-size:14px}
+ .jmp-abstract p{font-size:14px;margin-inline:0;padding:16px}
  .teaching-list h3{font-size:19px}
  .teaching-meta{font-size:14px}
 }
