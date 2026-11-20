@@ -178,3 +178,5 @@ html[lang=zh-CN] .teaching-list h3{font-weight:400;font-size:19px}
  .teaching-list h3{font-size:19px}
  .teaching-meta{font-size:14px}
 }
+
+.name .surname-small{font:inherit;font-size:.76em;letter-spacing:.045em;margin:0}
